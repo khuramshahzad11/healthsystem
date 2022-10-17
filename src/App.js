@@ -1,7 +1,9 @@
 import './App.css';
-import Booking from './pages/Booking';
+import Booking from './components/datetimepicker/Booking';
+import PatientDashboard from './components/PatientDashboard/pages/PatientDashboard';
 import Checkout from './pages/Checkout';
 import Success from './pages/Success';
+
 
 
 function App() {
@@ -9,7 +11,9 @@ function App() {
     <div >
       {/* <Booking/> */}
       {/* <Checkout/> */}
-      <Success/>
+      {/* <Success/> */}
+      {/* <Booking/> */}
+      <PatientDashboard/>
     </div>
   );
 }
